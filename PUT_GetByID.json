@@ -1,0 +1,74 @@
+[
+  {
+    "requests": [
+      {
+        "name": "Admin_Login_Post",
+        "data": [
+          {
+            "testCaseName": "valid case",
+            "userLoginEmail": "Team505@gmail.com",
+            "password": "test",
+            "expectedStatusCode": 200
+          }
+        ]
+      },
+      {
+        "name": "Get(ID)RetrieveWithInvalidBaseURL",
+        "data": [
+          {
+            "InvalidBaseURL": "https://dietician-july-api-hackathon-80f2590665cc.herokuapp.com/dieticiana",
+            "dieticianId": "17",
+            "expectedStatusCode": 404
+          }
+        ]
+      },
+      {
+        "name": "Get(ID)RetrieveWithNoAuth",
+        "data": [
+          {
+            "dieticianId": "17",
+            "expectedStatusCode": 401
+          }
+        ]
+      },
+      {
+        "name": "Get(ID)RetrieveWithInvaliEndpoint",
+        "data": [
+          {
+            "invalidEndPoint": "/test",
+            "dieticianId": "17",
+            "expectedStatusCode": 404
+          }
+        ]
+      },
+      {
+        "name": "Get(ID)RetrieveWithAuth",
+        "data": [
+          {
+            "dieticianId": "17",
+            "expectedStatusCode": 404
+          }
+        ]
+      },
+      {
+        "name": "Update Dietician by ID with valid inputs",
+        "data": [
+          {
+            "dieticianId": "17",
+            "Dietician_updateContactNumber": "8134739731",
+            "Dietician_updateDOB": "1985-11-27",
+            "Dietician_updateEducation": "MDO",
+            "Dietician_updateEmail": "Team5Raj1@gmail.com",
+            "Dietician_updateFirstname": "Subhadra",
+            "Dietician_updateHospitalCity": "Tampa",
+            "Dietician_updateHospitalName": "RegionalHospital",
+            "Dietician_updatePincode": "33569",
+            "Dietician_updateHospitalStreet": "Brandon",
+            "Dietician_updateLastname": "Rajsah",
+            "expectedStatusCode": 200
+          }
+        ]
+      }
+    ]
+  }
+]

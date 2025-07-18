@@ -1,0 +1,11 @@
+scenario,FirstName,LastName,ContactNumber,Email,Allergy,FoodPreference,CuisineCategory,DateOfBirth,errorMsg,responseCode,statusCode,stastusMsg
+positive ,Lavanya,lav,1244567815,lavanya.n123145@gmail.com,SOY,Vegan,Indian,1991-08-18,,,,
+updatePatient,Lavanya,lav,1244567811,lavanya.n12345@gmail.com,SOY,Vegan,Indian,1991-08-17,,,,
+updatePatient,lavanya,lav,1244567811,lavanya.n12345@gmail.com,SOY,Vegan,Indian,1991-08-18,,,,
+updatePatient,udateLavanya,lav,1244567811,lavanya.n12345@gmail.com,SOY,Vegan,Indian,1991-08-18,,,,
+updatePatient,updateLavanya,lava,1244567811,lavanya.n12345@gmail.com,SOY,Vegan,Indian,1991-08-18,,,,
+updatePatient,updateLavanya,lava,1244567811,vlavanya.n12345@gmail.com,SOY,Vegan,Indian,1991-08-18,,,,
+updatePatient,updateLavanya,lava,1244567811,vlavanya.n12345@gmail.com,ALMOND,Vegan,Indian,1991-08-18,,,,
+updatePatient,updateLavanya,lava,1244567811,vlavanya.n12345@gmail.com,ALMOND,Vegetarian,Indian,1991-08-18,,,,
+updatePatient,updateLavanya,lava,1244567811,vlavanya.n12345@gmail.com,ALMOND,Vegetarian,South Indian,1991-08-18,,,,
+DeletePatient,updateLavanya,,,,,,,,,,,

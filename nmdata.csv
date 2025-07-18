@@ -1,0 +1,9 @@
+Firstname,Lastname,ContactNumber,DateOfBirth,Email,HospitalName,HospitalStreet,HospitalCity,HospitalPincode,Education,testname,expected_status
+Meshower,Ajios,3321024532,1431-03-02,ajio.relllance@olx.com,Medicaire,Ellenella,Ellisa,768905,BCA,positive,201
+12ptyjbj67,Mihiuyfy,1317652222,1818-09-02,hirtyoo.italy@paris.com,Malaya,mechalo,Mexico,321456,NutritionSci,invalidfirstname,400
+Lancelot,@@@%%,3216540978,1203-09-05,lllkio@uio.com,medimix,fragrance,happap,760986,FoodScience,invalidlastname,400
+Varsha,Vanshi,90809@@@,1991-07-06,varsha.vanshi@gmail.com,santoor,limes,Alice,908778,HealthInformatics,invalidcontact,400
+Mayuka,Manogna,7668900098,1956-07-09,mayuka######ma#,Aayush,Fremont,county,908765,Biosciences,invalidemail,400
+Harry,Potter,7899987897,1966-09-08,harry.potter@gmail.com,HogwartsHsp,nineandthree,Hogwarts,HOGWARTS,Wizardry,invalidpin,400
+Allen,Shaw,,1290-09-07,allen.shaw@hotmail.com,Hellalia,live,life,789076,lifesciences,missingcontact,400
+Well,Wear,4565654564,,well.waer@willy.com,Welly,wearyia,mashio,988889,mbbs,missingdob,400

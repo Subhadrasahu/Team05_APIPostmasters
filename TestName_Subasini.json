@@ -1,0 +1,52 @@
+[
+  {
+    "Reqname": "All_Morbidities",
+    "method": "GET",
+    "endpoint": "/morbidity",
+    "authType": "Bearer Token",
+    "statusCode": 200
+  },
+  
+  {
+    "Reqname": "Invalid_Endpoint",
+    "method": "GET",
+    "endpoint": "/morbities",
+    "authType": "Bearer Token",
+    "statusCode": 405
+  },
+  {
+    "Reqname": "Valid_Testname",
+    "method": "GET",
+    "endpoint": "/morbidity/Average Glucose",
+    "authType": "Bearer Token",
+    "statusCode": 200
+  },
+  {
+    "Reqname": "Partial_Testname",
+    "method": "GET",
+    "endpoint": "/morbidity/AVG",
+    "authType": "Bearer Token",
+    "statusCode": 200
+  },
+  {
+    "Reqname": "Null_Testname",
+    "method": "GET",
+    "endpoint": "/morbidity/",
+    "authType": "Bearer Token",
+    "statusCode": 200
+  },
+  {
+    "Reqname": "Special_Character_Testname",
+    "method": "GET",
+    "endpoint": "/morbidity/Average***Glucose",
+    "authType": "Bearer Token",
+    "statusCode": 404
+  },
+  {
+    "Reqname": "Invalid_Testname",
+    "method": "GET",
+    "endpoint": "/morbidity/Averg_Gluc",
+    "authType": "Bearer Token",
+    "statusCode": 404
+  }
+]
